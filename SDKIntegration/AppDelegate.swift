@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import CleverTapSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        CleverTap.autoIntegrate()
+        CleverTap.setDebugLevel(3)
         return true
     }
 

@@ -1,0 +1,6 @@
+framework module Pods_SDKIntegration {
+  umbrella header "Pods-SDKIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}
